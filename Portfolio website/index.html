@@ -3,8 +3,10 @@
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="description" content="My Portfolio">
+   <meta name="author" content="OLUWATOBI AKINOLA">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <title>OLUWATOBI PORTFOLIO</title>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link rel="stylesheet" href="./index.css">
    <script src="./index.js" defer></script>
@@ -12,7 +14,9 @@
 <body>
    <nav class="nav-bar">
       <ul class="list-container">
-         <li><a href="#">HOME</a></li>
+         <li class="home">
+            <a href="#">HOME</a>
+         </li>
          <li class="edu">
             <a href="#">EDUCATION</a>
             <div class="edu-hidden">
@@ -57,6 +61,24 @@
          <h1>oluwatobi akinola</h1>
       </div>
    </nav>
+
+   <div class="clock">
+      <div>
+         <span id="hour">00</span>
+         <span class="text hours">Hours</span>
+      </div>
+      <div>
+         <span id="minutes">00</span>
+         <span class="text minute">Minutes</span>
+      </div>
+      <div>
+         <span id="seconds">00</span>
+         <span class="text second">Seconds</span>
+      </div>
+      <div>
+         <span id="ampm">Am</span>
+      </div>
+   </div>
    
    <section class="main-container">
 
@@ -65,7 +87,7 @@
          <div class="about-me">
             <h2>About me</h2>
             <div class="my-details">
-               <p>I'm a hobbyist software developer who have over one year of programming experience. I program in 
+               <p>I'm a hobbyist software developer who have over one year programming experience. I program in 
                   Java and Javascript. 
                </p>
                <p>I am well familiar with spring framework using spring boot  and also with some front end tools like Thymeleaf
